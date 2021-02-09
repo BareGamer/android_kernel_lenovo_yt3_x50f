@@ -1,0 +1,17 @@
+
+
+config HIDEEP_UPDATE_FW_SWD
+	bool "HIDEEP UPDATE FW, USING SWD METHOD"
+	depends on TOUCHSCREEN_HIDEEP_BAMBOO
+	help
+		say y in here, if you are using the ist7xx serial.
+		the others, say NO.
+
+config HIDEEP_UPDATE_FW_I2C
+	bool "HIDEEP UPDATE FW, USING I2C METHOD"
+	depends on TOUCHSCREEN_HIDEEP_BAMBOO
+	help
+		say y in here, if you are using the ist7xx serial.
+		the others, say NO.
+
+
